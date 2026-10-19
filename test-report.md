@@ -29,4 +29,5 @@ scrolling looks and feels.
 
 You checked the live site deployed by Vercel from `main` and reported that
 everything works as expected, so all five checks are marked **Passed** in the
-"You (your browser)" column. Which browsers and devices you used wasn't recorded.
+"You (your browser)" column. You used Mozilla Firefox, with Responsive Design
+Mode for phone sizes. Safari and real phones weren't tested.
