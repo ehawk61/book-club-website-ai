@@ -11,6 +11,7 @@ _Last updated: 2026-10-19_
 - `project-state.md` (this file) and `test-report.md` started.
 - `index.html` first version: fiction notice, heading, "See the next gathering" button, the About, Next Gathering and Next Book Read sections, and phone-friendly styling. All five checks passed in Claude's headless-browser run and in your own browser check of the live Vercel site (see `test-report.md`).
 - Vercel is connected: pushes to `main` deploy the live site, and pushes to an open pull request should get a preview link.
+- `release-record.md`: Release 1 recorded (live URL, commit, what you observed, limitations).
 
 ## Next
 1. Decide the next small improvement (nothing is planned yet).
