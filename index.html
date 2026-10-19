@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RTP Reading Club (fictional)</title>
+  <style>
+    :root {
+      --bg: #faf7f2;
+      --card: #ffffff;
+      --text: #2b2622;
+      --muted: #6b625a;
+      --accent: #8a3b12;
+      --accent-text: #ffffff;
+      --border: #e4ddd3;
+      --notice-bg: #fff4d6;
+      --notice-border: #e8c766;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.0625rem;
+      line-height: 1.6;
+    }
+
+    .fiction-notice {
+      margin: 0;
+      padding: 0.6rem 1rem;
+      background: var(--notice-bg);
+      border-bottom: 1px solid var(--notice-border);
+      font-family: system-ui, sans-serif;
+      font-size: 0.95rem;
+      text-align: center;
+    }
+
+    header, main {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+
+    header {
+      padding-top: 2.5rem;
+      padding-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0 0 1.25rem;
+      font-size: clamp(2rem, 8vw, 3rem);
+      line-height: 1.15;
+    }
+
+    .button {
+      display: inline-block;
+      min-height: 44px;
+      padding: 0.75rem 1.5rem;
+      border-radius: 999px;
+      background: var(--accent);
+      color: var(--accent-text);
+      font-family: system-ui, sans-serif;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .button:hover { filter: brightness(1.1); }
+
+    .button:focus-visible {
+      outline: 3px solid var(--text);
+      outline-offset: 3px;
+    }
+
+    section {
+      margin-bottom: 1.5rem;
+      padding: 1.25rem 1.25rem 0.5rem;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      scroll-margin-top: 1rem;
+    }
+
+    h2 {
+      margin: 0 0 0.75rem;
+      color: var(--accent);
+      font-size: 1.5rem;
+    }
+
+    dl { margin: 0 0 1rem; }
+
+    dt {
+      color: var(--muted);
+      font-family: system-ui, sans-serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    dd { margin: 0 0 0.75rem; }
+
+    footer {
+      padding: 1rem 1rem 2rem;
+      color: var(--muted);
+      font-family: system-ui, sans-serif;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <p class="fiction-notice"><strong>Fictional site:</strong> this club, reading room and gathering are made up for a workshop at All Things Open 2026.</p>
+
+  <header>
+    <h1>RTP Reading Club</h1>
+    <a class="button" href="#next-gathering">See the next gathering</a>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>The RTP Reading Club is a friendly, pretend book club that reads one book at a time and meets to talk about it. The club is not real.</p>
+    </section>
+
+    <section id="next-gathering">
+      <h2>Next Gathering</h2>
+      <dl>
+        <dt>When</dt>
+        <dd>October 24, 2026, 10:30 AM</dd>
+        <dt>Where</dt>
+        <dd>RTP Community Reading Room (fictional)</dd>
+        <dt>Reading</dt>
+        <dd>Chapters 10-15 of <cite>This Inevitable Ruin</cite> by Matt Dinniman (Dungeon Crawler Carl Book 7)</dd>
+      </dl>
+    </section>
+
+    <section id="next-book">
+      <h2>Next Book Read</h2>
+      <p><cite>A Parade of Horribles</cite> by Matt Dinniman (Dungeon Crawler Carl Book 8)</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>RTP Reading Club is fictional. The books are real novels by Matt Dinniman.</p>
+  </footer>
+</body>
+</html>

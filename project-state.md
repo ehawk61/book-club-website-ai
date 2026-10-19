@@ -9,12 +9,11 @@ _Last updated: 2026-10-19_
 - `CLAUDE.md`: project rules (merged into `main`).
 - `project-brief.md`: what the fictional RTP Reading Club page should show, plus five completion checks.
 - `project-state.md` (this file) and `test-report.md` started.
+- `index.html` first version: fiction notice, heading, "See the next gathering" button, the About, Next Gathering and Next Book Read sections, and phone-friendly styling. All five checks passed in Claude's headless-browser run (see `test-report.md`).
 
 ## Next
-1. Create `index.html` with the heading and the three sections (About, Next Gathering, Next Book Read).
-2. Add the main button that scrolls to Next Gathering.
-3. Simple styling that works on phone and laptop.
-4. Run what checks can be run here, record results in `test-report.md`, then check in a browser.
+1. You open `index.html` in your own browser (phone and laptop if possible), run the five checks, and tell Claude the results so they can be recorded.
+2. Fix anything that fails or looks wrong.
 
 ## Open questions
 - None right now.
